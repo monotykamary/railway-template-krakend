@@ -1,0 +1,33 @@
+{
+  "$schema": "https://www.krakend.io/schema/v3.json",
+  "version": 3,
+  "name": "Railway KrakenD Gateway",
+  "port": 8080,
+  "timeout": "10s",
+  "cache_ttl": "0s",
+  "endpoints": [
+    {
+      "endpoint": "/api/demo",
+      "method": "GET",
+      "output_encoding": "json",
+      "backend": [
+        {
+          "url_pattern": "/demo",
+          "method": "GET",
+          "encoding": "json",
+          "sd": "static",
+          "host": [
+            "__BACKEND_URL__"
+          ]
+        }
+      ]
+    }
+  ],
+  "extra_config": {
+    "qos/ratelimit/router": {
+      "max_rate": 100,
+      "client_max_rate": 20,
+      "strategy": "ip"
+    }
+  }
+}

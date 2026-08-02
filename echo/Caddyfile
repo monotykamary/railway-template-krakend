@@ -1,0 +1,14 @@
+{
+	auto_https off
+	admin off
+}
+:8081 {
+	handle /healthz {
+		respond "ok" 200
+	}
+	handle /demo {
+		header Content-Type application/json
+		respond `{"message":"Hello from the private Railway backend","source":"echo"}` 200
+	}
+	respond "not found" 404
+}
