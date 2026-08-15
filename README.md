@@ -2,13 +2,13 @@
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/krakend-gateway?referralCode=ZqgrJ0)
 
-Deploy KrakenD Community Edition 2.13.8 with a working private backend example and a version-controlled gateway configuration.
+Deploy KrakenD Community Edition 2.13.9 with a working private backend example and a version-controlled gateway configuration.
 
 The Deploy on Railway button is added after the published route is verified.
 
 ## What this deploys
 
-- Public KrakenD CE `2.13.8`, pinned to the official Linux/AMD64 image digest
+- Public KrakenD CE `2.13.9`, pinned to the official Linux/AMD64 image digest
 - Private Caddy `2.10.2-alpine` echo backend, pinned by digest
 - A validated `/api/demo` gateway route and KrakenD's built-in `/__health`
 - Per-client and global gateway rate limits
@@ -45,8 +45,8 @@ BASE_URL=https://your-domain.example ./scripts/smoke.sh
 
 ## Upstream
 
-- Source: https://github.com/krakend/krakend-ce/tree/v2.13.8
-- Release: https://github.com/krakend/krakend-ce/releases/tag/v2.13.8
+- Source: https://github.com/krakend/krakend-ce/tree/v2.13.9
+- Release: https://github.com/krakend/krakend-ce/releases/tag/v2.13.9
 - Documentation: https://www.krakend.io/docs/
 - License: Apache License 2.0
 
