@@ -20,14 +20,14 @@
             "__BACKEND_URL__"
           ]
         }
-      ]
+      ],
+      "extra_config": {
+        "qos/ratelimit/router": {
+          "max_rate": 100,
+          "client_max_rate": 20,
+          "strategy": "ip"
+        }
+      }
     }
-  ],
-  "extra_config": {
-    "qos/ratelimit/router": {
-      "max_rate": 100,
-      "client_max_rate": 20,
-      "strategy": "ip"
-    }
-  }
+  ]
 }
