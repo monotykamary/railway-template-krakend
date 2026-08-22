@@ -2,7 +2,7 @@
 
 ## About Hosting KrakenD
 
-KrakenD Community Edition is a high-performance stateless API gateway. This template deploys stable version 2.13.9 with a working private echo backend so the gateway path can be tested immediately and then replaced with your own APIs.
+KrakenD Community Edition is a high-performance stateless API gateway. This template deploys stable version 2.13.10 with a working private echo backend so the gateway path can be tested immediately and then replaced with your own APIs.
 
 ## Common Use Cases
 

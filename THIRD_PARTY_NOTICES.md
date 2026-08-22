@@ -2,8 +2,8 @@
 
 ## KrakenD Community Edition
 
-- Version: 2.13.9
-- Source: https://github.com/krakend/krakend-ce/tree/v2.13.9
+- Version: 2.13.10
+- Source: https://github.com/krakend/krakend-ce/tree/v2.13.10
 - Copyright: KrakenD contributors
 - License: Apache License 2.0
 
