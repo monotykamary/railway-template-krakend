@@ -1,4 +1,4 @@
-FROM docker.io/caddy:2.11.4-alpine@sha256:13ba145cba2f3e28fa801994876e4c086d1b95d5aa2a520a734765ffb6b12017
+FROM docker.io/caddy:2.11.4-alpine@sha256:5f5c8640aae01df9654968d946d8f1a56c497f1dd5c5cda4cf95ab7c14d58648
 COPY Caddyfile /etc/caddy/Caddyfile
 RUN caddy validate --config /etc/caddy/Caddyfile --adapter caddyfile
 EXPOSE 8081
