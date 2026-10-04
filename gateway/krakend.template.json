@@ -1,6 +1,6 @@
 {
-  "$schema": "https://www.krakend.io/schema/v3.json",
-  "version": 3,
+  "$schema": "https://www.krakend.io/schema/v4.json",
+  "version": 4,
   "name": "Railway KrakenD Gateway",
   "port": 8080,
   "timeout": "10s",
