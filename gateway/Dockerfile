@@ -1,4 +1,4 @@
-FROM docker.io/library/krakend:3.0.0@sha256:e93eed25554145dc4f2727d203e96c655bd2e609459f05e13afcbf590582496f
+FROM docker.io/library/krakend:3.0.1@sha256:c974c4c5a0b5276340641749488e183ace071494d832381e42d222f5398265b4
 
 COPY krakend.template.json /etc/krakend/krakend.template.json
 COPY entrypoint.sh /usr/local/bin/railway-krakend-entrypoint
